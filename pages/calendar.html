@@ -15,6 +15,27 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!--bootstrap css link-->
+    <!--bootstrap css link-->
+    <style type="text/css" media="screen and (max-width:576px)">
+        .card {
+            flex-direction: row !important;
+            margin-bottom: 35px;
+        }
+
+        .card h6 {
+            font-size: 1.5rem;
+        }
+
+        .card img {
+            width: 10rem !important;
+        }
+
+        .content_block {
+            width: 90% !important;
+            margin: 0 5% !important;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -27,69 +48,75 @@
     <header class="p-3 navbar-expand-lg">
         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-between ">
-                <div class="d-lg-none d-flex"></div>
-                <a href="/"
-                class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none col-lg-2">
-                <h4 class="fw-bold fs-3" id="logo">PUDGE SOFT</h4>
-            </a> <!--logo (pudge soft)-->
+                <div b-ldu9p2s9xc="" class="d-lg-none d-flex"></div>
+                <div class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none col-lg-2">
+                    <h4 class="fw-bold fs-3" id="logo"><a href="../index.html">PUDGE SOFT</a></h4>
+                </div>
 
 
-            <ul class="nav col-12 col-lg-auto mb-2 align-items-center justify-content-between mb-md-0 col-lg-8 order-3 order-lg-2">
+
+                    <ul
+                        class="nav col-12 col-lg-auto mb-2 align-items-center justify-content-between mb-md-0 col-lg-8 order-3 order-lg-2">
 
 
-                <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <ul class=" collapse navbar-collapse navbar-nav me-auto mb-2 mb-lg-0 justify-content-around order-3" id="navbarSupportedContent">
-                    <li><a href="#" class="nav-link px-2 text-white-50">Пошук</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white-50">Форум</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white-50">Календар</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white-50">Рецензії</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white-50">Про нас</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white-50">FAQ</a></li>
-                </ul>
-                <!--all categories-->
+                        <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="toggler-icon"></div>
+                        </button>
+                        <ul class=" collapse navbar-collapse navbar-nav me-auto mb-2 mb-lg-0 justify-content-around order-3" id="navbarSupportedContent">
+                            <li><a href="#" class="nav-link px-2 text-white-50"><button type="button" class="btn btn-dark text-white-50 border-0">Пошук</button></a></li>
+                            <li><a href="#" class="nav-link px-2 text-white-50"><button type="button" class="btn btn-dark text-white-50 border-0">Форум</button></a></li>
+                            <li><a href="#" class="nav-link px-2 text-white-50"><button type="button" class="btn btn-dark text-white-50 border-0">Календар</button></a></li>
+                            <li><a href="#" class="nav-link px-2 text-white-50"><button type="button" class="btn btn-dark text-white-50 border-0">Рецензії</button></a></li>
+                            <li><a href="faq.html" class="nav-link px-2 text-white-50"><button type="button" class="btn btn-dark text-white-50 border-0">Про нас</button></a></li>
 
-                <li class="order-2">
-                    <div class="dropdown">
-                        <button class="btn btn-dark dropdown-toggle text-white-50" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">Аніме</button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Аніме?</a></li>
-                            <li><a class="dropdown-item" href="#">Манга?</a></li>
                         </ul>
-                    </div>
-                </li><!--anime button-->
+                        <!--all categories-->
 
-            </ul>
+                        <li class="order-2">
+                            <div class="dropdown">
+                                <button class="btn btn-dark dropdown-toggle text-white-50" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Аніме
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Аніме?</a></li>
+                                    <li><a class="dropdown-item" href="#">Манга?</a></li>
+                                </ul>
+                            </div>
+                        </li><!--anime button-->
 
-
-
-            <div class="dropdown text-end col-lg-2 order-2 order-lg-3">
-                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="src/img/user_icon.png" alt="mdo" width="32" height="32" class="rounded-circle">
-            </a>
-            <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="#">Sign in</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
-            </ul>
-        </div> <!--block for user button-->
+                    </ul>
 
 
-    </div>
-</div>
-</header>
+
+                    <div class="dropdown text-end col-lg-2 order-2 order-lg-3">
+                        
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../src/img/user_icon.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">Sign in</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div> <!--block for user button-->
+
+
+            </div>
+        </div>
+    </header>
 
 
 
 
 
 <main>
-
+    <!-- 1 вар -->
     <div class="container main-container pt-3 calendar ">
         <div class="row text-center mb-4"><h2 >Дата виходу аніме/манги</h2>
         </div>
@@ -111,9 +138,7 @@
 
 
 
-
-
-
+    <!-- 2 вар  -->
 
     <div class="container main-container pt-3 mt-5" >
 
@@ -141,320 +166,312 @@
                     <div class="btn-click-two">
                         <button onClick="SecondImage()">R</button>
                     </div>
-                        <script type="text/javascript">
-                            var myImage=document.querySelector("#image-day");
+                    <script type="text/javascript">
+                        var myImage=document.querySelector("#image-day");
 
-                            function FirstImage()
-                            {
-                                myImage.src="https://img.championat.com/c/1200x900/news/big/z/e/ign-25-luchshih-anime-v-istorii_1672055411452433690.jpg"
-                            }
+                        function FirstImage()
+                        {
+                            myImage.src="https://img.championat.com/c/1200x900/news/big/z/e/ign-25-luchshih-anime-v-istorii_1672055411452433690.jpg"
+                        }
 
-                            function SecondImage()
-                            {
-                                myImage.src="https://ss.sport-express.ru/userfiles/materials/189/1896971/volga.jpg"
+                        function SecondImage()
+                        {
+                            myImage.src="https://ss.sport-express.ru/userfiles/materials/189/1896971/volga.jpg"
 
-                            }
-                        </script>
+                        }
+                    </script>
 
-                        <div class="day-number-box">
-                            <h3 class="day-number ">2</h3>
-                        </div>
+                    <div class="day-number-box">
+                        <h3 class="day-number ">2</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://img.championat.com/c/1200x900/news/big/z/e/ign-25-luchshih-anime-v-istorii_1672055411452433690.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">3</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://img.championat.com/c/1200x900/news/big/z/e/ign-25-luchshih-anime-v-istorii_1672055411452433690.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">3</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">4</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">4</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">5</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">5</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">6</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">6</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">7</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">7</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">8</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">8</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">9</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">9</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">10</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">10</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">11</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">11</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">12</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">12</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">13</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">13</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">14</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">14</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">15</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">15</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">16</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">16</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">17</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">17</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">18</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">18</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">19</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">19</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">20</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">20</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">21</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">21</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">22</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">22</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">23</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">23</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">24</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">24</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">25</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">25</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">26</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">26</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">27</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">27</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">28</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">28</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">29</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">29</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">30</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">30</h3>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
-                    <div class="image-container ">
-                        <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
-                        <div class="day-number-box">
-                            <h3 class="day-number ">31</h3>
-                        </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="image-container ">
+                    <img src="https://buy.thewitcher.com/build/images/home/bg-witcher3-1440@1x-ce4038c1.jpg" class="img-fluid img-fit">
+                    <div class="day-number-box">
+                        <h3 class="day-number ">31</h3>
                     </div>
                 </div>
             </div>
         </div>
-
-    </main>
-
-
-
-
-    <!--footer begins-->
-    <footer class="container pt-5 ">
-        <div class="row justify-content-between"> 
-            <!--row with links on left and social media icons on the right-->
-
-            <div class="col-6 mb-2 ">
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2 pt-2 pb-4"><a href="#" class="nav-link p-0 text-body-secondary">Умови
-                    використання</a></li>
-                    <li class="nav-item mb-2 pb-4"><a href="#" class="nav-link p-0 text-body-secondary">Реклама на
-                    сайті</a></li>
-                    <li class="nav-item mb-2 pb-4"><a href="#" class="nav-link p-0 text-body-secondary">Політика конфіденційності</a></li>
-                </ul>
-            </div> <!--block with links-->
-
-            <div class="col-6 mb-2 d-flex justify-content-end">
-                <div class="nav flex-column">
-                    <ul class="list-unstyled d-flex flex-column">
-                        <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
-                            src="src/img/camera_1439242.png" class="footer_social"></use>
-                        </a></li>
-                        <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
-                            src="src/img/facebook_665209.png" class="footer_social"></use>
-                        </a></li>
-                        <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
-                            src="src/img/telegram_2111813.png" class="footer_social"></use>
-                        </a></li>
-                        <li class="ms-3 "><a class="link-body-emphasis" href="#"><img src="src/img/play_3024584.png"
-                            class="footer_social"></use>
-                        </a></li>
-                    </ul>
-                </div>
-            </div> <!--block with social-->
-        </div>
-
-        <div class="d-flex justify-content-center py-4 my-4 border-top">
-            <p>© 2023 Pudge Soft, Inc. All rights reserved.</p>
-        </div>
-
-
-
     </div>
 
+</main>
 
 
 
 
+<!--footer begins-->
+<footer class="container pt-5 ">
+    <div class="row justify-content-between"> <!--row with links on left and social media icons on the right-->
+
+
+        <div class="col-6 mb-2 ">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2 pt-2 pb-4"><a href="#" class="nav-link p-0 text-body-secondary">Умови
+                використання</a></li>
+                <li class="nav-item mb-2 pb-4"><a href="https://t.me/ripper_jc" class="nav-link p-0 text-body-secondary">Реклама на
+                сайті</a>
+            </li>
+            <li class="nav-item mb-2 pb-4"><a href="#" class="nav-link p-0 text-body-secondary">Політика
+            конфіденційності</a></li>
+        </ul>
+    </div> <!--block with links-->
 
 
 
+    <div class="col-6 mb-2 d-flex justify-content-end">
+        <div class="nav flex-column">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
+                    src="../src/img/camera_1439242.png" class="footer_social"></use>
+                </a></li>
+                <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
+                    src="../src/img/facebook_665209.png" class="footer_social"></use>
+                </a></li>
+                <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
+                    src="../src/img/telegram_2111813.png" class="footer_social"></use>
+                </a></li>
+                <li class="ms-3 "><a class="link-body-emphasis" href="#"><img src="../src/img/play_3024584.png"
+                    class="footer_social"></use>
+                </a></li>
+            </ul>
+        </div>
+    </div> <!--block with social-->
+
+
+</div>
+
+<div class="d-flex justify-content-center py-4 my-4 border-top">
+    <p>© 2023 Pudge Soft, Inc. All rights reserved.</p>
+</div>
 
 </footer>
-<link rel="stylesheet" href="../src/css/header_footer.css">
-<link rel="stylesheet" href="../src/css/manga.css">
 <script src="../src/js/script-calendar.js"></script>
 </body>
 
