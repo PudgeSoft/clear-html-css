@@ -1,9 +1,14 @@
 [data-bs-theme=dark] {
-    --bs-body-bg: #262020!important;
+    --bs-body-bg: #161313!important;
 }
+header{
+    background-color: #9b0101!important;
+}
+
 #logo {
     background: #DF1AFF;
-    background: linear-gradient(to right, #DF1AFF 0%, #FFDA1A 100%);
+    background: linear-gradient(to right, #f700ff 0%, #f8bf03 100%);
+    
     background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16,14 +21,31 @@
 .navbar-collapse .btn-dark{
     --bs-btn-bg: #262020!important;
 }
+.navbar-collapse .nav-link{
+    border-bottom: 3px solid rgba(0, 0, 0, 0)!important;
+}
+.navbar-collapse .nav-link:hover{
+    border-bottom: 3px solid black!important;
+}
 
 
-main{
-    
+
+body{
+    font-family: 'Roboto Condensed', sans-serif!important;
     background-image: url(../bkg.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+/*
+main{
+    background-color: #00000091;
+}*/
+
+
+
+footer{
+    background-color: #262020!important;
 }
 .toggler-icon{
     width: 1.5em;
