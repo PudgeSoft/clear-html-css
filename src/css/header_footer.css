@@ -36,6 +36,10 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    
+}
+main{
+    min-height: 85vh;
 }
 /*
 main{
