@@ -15,8 +15,12 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
     <!--bootstrap css link-->
+
+
+    <link rel="stylesheet" href="../src/css/splide.min.css">
+
+
     <style type="text/css" media="screen and (max-width:576px)">
         .card {
             flex-direction: row !important;
@@ -126,71 +130,46 @@
 
 
 
+
+
+
+
+
+
     <!--main part-->
-    <main>
+    <main class="py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center pb-5 pt-2"> <!--row with 5 titles on big display-->
 
-        <div class="container d-flex flex-column justify-content-center">
-            <div class="row">
-                <div class="col text-center mt-4">
-                    <h1 class="">Назва манги</h1>
+                <div class="col-12 col-md-10 pages">
+                    <section class="splide" aria-labelledby="carousel-heading">
+                        <h2 id="carousel-heading">рандомний текст</h2>
+                      
+                        <div class="splide__track">
+                              <ul class="splide__list ">
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/07.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/08.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/09.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/07.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/08.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/09.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/07.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/08.png" class=""></li>
+                                  <li class="splide__slide p-1 pb-5"><img src="../src/reading/09.png" class=""></li>
+                              </ul>
+                        </div>
+                      </section>
                 </div>
 
             </div>
-
-            <!-- manga page/ buttons -->
-            <div class="row justify-content-center">
-
-                <div
-                    class="col-xl-7 col-lg-8 col-md-10 col-sm-12 main-container rounded-5 align-self-center mt-4 mb-2 slider">
-
-                    <!-- manga page-->
-
-                    <img src="../src/reading/manga-page.jpeg" alt="" class="img-fluid mx-auto d-block rounded-5">
-
-
-                    <div> <!-- bookmark-->
-                        <button type="button" class="btn">
-                            <img src="../src/reading/bookmark.png" alt="" class="img-fluid bookmark">
-                        </button>
-                    </div>
-
-                    <!--buttons -->
-                    <div class="btn-triangle-left">
-                        <button type="button" class="btn prev" onclick="prev()">
-                            <img src="../src/reading/triangleL.png" alt="img" class="img-fluid">
-                        </button>
-                    </div>
-                    <div class="btn-triangle-right">
-                        <button type="button" class="btn ">
-                            <img src="../src/reading/triangle.png" alt="img" class="img-fluid">
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!--page numbering and buttons -->
-            <div class="row d-flex justify-content-center flex-row  ">
-                <div class="col-2 text-end   p-0">
-                    <button type="button" class="btn p-0 pt-2 ml-2">
-                        <img src="../src/reading/Polygon_L.png" alt="img" class=" ">
-                    </button>
-
-                </div>
-
-                <div class="col-2 rounded-5 align-self-center  mx-4 p-0">
-                    <h1 class="text-center ">1/90</h1>
-                </div>
-
-                <div class="col-2 text-start  p-0">
-                    <button type="button" class="btn p-0 pt-2">
-                        <img src="../src/reading/Polygon_R.png" alt="img" class=" ">
-                    </button>
-                </div>
-
-            </div>
-
         </div>
     </main>
+
+
+
+
+
+
 
 
 
@@ -227,8 +206,8 @@
                             <li class="ms-3 pb-1"><a class="link-body-emphasis" href="#"><img
                                         src="../src/img/telegram_2111813.png" class="footer_social"></use>
                                 </a></li>
-                            <li class="ms-3 "><a class="link-body-emphasis" href="#"><img src="../src/img/play_3024584.png"
-                                        class="footer_social"></use>
+                            <li class="ms-3 "><a class="link-body-emphasis" href="#"><img
+                                        src="../src/img/play_3024584.png" class="footer_social"></use>
                                 </a></li>
                         </ul>
                     </div>
@@ -242,6 +221,11 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script src="../src/js/splide.min.js"></script>
+    <script src="../src/js/slider.js"></script>
 </body>
 
 </html>
