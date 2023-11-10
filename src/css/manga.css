@@ -28,6 +28,30 @@ main .container {
 .top-nav .text-body-secondary:hover{
     color: rgb(222 226 230 / 95%)!important;
 }
+.top-nav .nav-link{
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px 0;
+}
+.top-nav .active-page{
+    background-color: #443b3b!important;
+}
+
 .other-info{
     width: 100%;
+}
+.stroke{
+    justify-content: space-between;
+}
+.stroke a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: ease-in-out 0.2s;
+}
+.stroke p{
+    margin-bottom: 0;
+}
+.stroke a:hover{
+    border-bottom: 1px solid black;
 }

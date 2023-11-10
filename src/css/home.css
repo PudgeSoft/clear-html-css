@@ -4,11 +4,18 @@
 }
 .card{
     padding: 0 1em;
+    flex: 1 1 12rem;
+    max-width: 12rem!important;
+    margin: auto;
     
 }
 .card img{
     border-radius: 0px;
+    max-width: 12rem!important;
 }
 .card-body{
     text-align: left;
+}
+#header{
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
 }
