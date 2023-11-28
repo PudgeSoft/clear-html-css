@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    background-image: url(../img/1login-background.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    background-color: #fffdfd;
+    box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    position: relative;
+}
+
+.user-avatar {
+    max-width: 12rem;
+    border-radius: 100%;
+    box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 26px -4px rgba(0, 0, 0, 0.75);
+}
+.nickname p{
+    margin-bottom: 0;
+}
+.settings{
+    max-width: 2.5rem;
+}
+.sidebar{
+    background-color: #e2e2e2;
+}
+.buttons .btn-danger{
+    background-color: #9b0101!important;
+    border-radius: 5px;
+    padding: 12px!important;
+    flex: 0 0 50%;
+}
+.buttons .btn-danger:hover{
+
+}
